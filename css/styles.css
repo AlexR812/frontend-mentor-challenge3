@@ -1,0 +1,103 @@
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+
+/* Globales */
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; 
+    height: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 14px; 
+    font-family: Inter, sans-serif;
+    color: var(--White);
+    background-color: var(--Off-Black);
+    min-height: 100%;
+    position: relative;
+}
+
+.tarjeta {
+    position: absolute;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor {
+    max-width: 50rem;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+    padding: 5rem;
+}
+
+.relleno {
+    border-radius: 2rem;
+    background-color: var(--Dark-Grey);
+    height: auto;
+    text-align: center;
+}
+
+.foto {
+    width: 11.8rem;
+    height: 11.8rem;
+    border-radius: 50%;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: column;
+}
+
+.enlaces a {
+    background-color: var(--Grey);
+    color: var(--White);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+}
+
+.enlaces a:hover {
+    background-color: rgb(146, 213, 65);
+    color: var(--Dark-Grey);
+}
+
+.mrg-tp-30 {
+    margin-top: 3rem;
+}
+
+.mrg-btm-5 {
+    margin-bottom: .5rem;
+}
+
+.fnt-bold {
+    font-weight: bold;
+}
+
+.size-32 {
+    font-size: 3.2rem;
+}
+
+.size-18 {
+    font-size: 1.8rem;
+}
+
+.color-green {
+    color: rgb(146, 213, 65);
+}
+
+
